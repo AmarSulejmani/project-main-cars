@@ -12,17 +12,21 @@ body {
 
 .header {
     width: 100%;
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .header-container {
     width: 100%;
     max-width: 900px;
-    height: 90px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 40px 0;
+}
+
+nav {
+    display: block;
 }
 
 ul.main-nav {
